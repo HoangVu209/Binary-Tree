@@ -1,4 +1,3 @@
-/*
 #include<iostream>
 #include<queue>
 using namespace std;
@@ -92,13 +91,6 @@ void print(node *proot)
 int main()
 {
     node *proot = new node(10);
-
-    // Insert 
-    /*
-    for(int i = 2; i < 11; i++)
-    {
-        insert(proot, i);
-    }
     
     proot->pleft = new node(11);
     proot->pleft->pleft = new node(7);
@@ -113,4 +105,3 @@ int main()
 
     return 0;
 }
-*/
